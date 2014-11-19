@@ -9,7 +9,7 @@ function configurePackage(api) {
   api.versionsFrom('METEOR@1.0');
 
   api.use('jquery', 'client');
-  api.use('meteorhacks:inject-initial', ['client', 'server']);
+  api.use('meteorhacks:inject-initial@1.0.2', ['client', 'server']);
 
   api.addFiles('server/mondido.js', 'server');
 }
