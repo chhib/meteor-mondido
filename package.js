@@ -2,7 +2,7 @@ Package.describe({
   summary: "Mondido payments integration",
   name: 'chhib:mondido',
   git: 'https://github.com/chhib/meteor-mondido.git',
-  version: "0.1.1"
+  version: "0.1.2"
 });
 
 function configurePackage(api) {

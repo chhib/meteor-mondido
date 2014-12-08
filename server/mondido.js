@@ -8,7 +8,7 @@ Mondido.configure = function (options) {
 };
 
 Mondido._injectScript = function () {
-  var src = 'https://mondido.com/v1/mondido.js?merchant_id=' + this.options.merchant_id;
+  var src = 'https://api.mondido.com/v1/mondido.js?merchant_id=' + this.options.merchant_id;
   var script = '<script type="text/javascript" src="' + src + '"></script>';
   var endOfHead = /<\/head>/;
   var prependedMondido = script + '</head>';
